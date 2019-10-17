@@ -19,6 +19,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 1.6rem;
+  background-image: radial-gradient(circle, #570735, #582354, #513b70, #425186, #2f6595, #2477a4, #1b8ab0, #1e9cb9, #23b3ca, #31cbd9, #45e3e6, #5ffbf1);
 }
 
 code {
@@ -28,12 +29,12 @@ code {
 
 button {
   display: inline-block;
-  border: none;
+  border: 3px  red;
   padding: 1rem 2rem;
   margin: 0;
   text-decoration: none;
-  background: #414141;
-  color: #ffffff;
+  background: rgb(167, 159, 55);
+  color: rgb(160, 31, 8);
   font-family: inherit;
   font-size: 1.6rem;
   cursor: pointer;
@@ -56,3 +57,4 @@ button:focus {
 button:active {
   transform: scale(0.99);
 }
+
